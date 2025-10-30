@@ -18,7 +18,7 @@ img {
     padding-left: 12px;
 }
 
-.content__read-more {
+.text--read-more {
     font-size: 16px;
     text-decoration: none;
     color: #1b1c21;
@@ -55,9 +55,16 @@ img {
     
 }
 
+.title {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
 .img__content {
     margin-top: 1em;
 }
+
+
 
 /*header*/
 
@@ -120,4 +127,11 @@ img {
     height: 40px;
     padding: 5px 50px 5px 5px;
     
+}
+
+
+/*context*/
+
+.img--arrows {
+    margin-right: 12px;
 }
