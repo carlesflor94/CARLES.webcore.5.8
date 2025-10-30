@@ -132,7 +132,8 @@ img {
     
 }
 
-.main-nav a {
+.main-nav a,
+.text--review {
     text-decoration: none;
     font-size: 16px;
     color: #7e7e82;
@@ -163,6 +164,7 @@ img {
     .container,
     .content {
         max-width: 768px;
+        margin: 0 auto;
     }
 
     .tablet-only {
@@ -214,6 +216,8 @@ img {
     flex-direction: row;
     align-items: stretch;
     gap: 24px;
+    margin: 0;
+    padding: 0 16px;
     padding-bottom: 40px;
     margin-top: 24px;
    }
@@ -242,10 +246,15 @@ img {
 /* media Q for PC version */
 
 @media (min-width: 1000px) {
-    .container,
-    .content {
+    .container {
         max-width: 1120px;
+        width: 100%;
+        margin: 0 auto;
     }
+
+    
+
+    
 
 
     .tablet-only {
@@ -253,6 +262,10 @@ img {
     }
 
     .header {
+        display: none;
+    }
+
+    .pc-hide {
         display: none;
     }
 
@@ -307,6 +320,30 @@ img {
         vertical-align: middle;
     }
 
+
+
+
+    /*content adjustments*/
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 0;
+        padding: 0 16px;
+        padding-bottom: 49px;
+        gap: 24px;
+        
+    }
+
+
+    .content__left,
+    .content__img {
+        flex: 1 1 0;
+        min-width: 0;
+    }
+
+    
 
 
 }

@@ -53,7 +53,7 @@
         
         </div>
 
-        <nav class="main-nav">
+        <nav class="main-nav pc-hide">
             <ul>
                 <li><a href="#" class="main-nav__current-page">Devices we repair</a></li>
                 <li><a href="#">Additional services</a></li>
@@ -61,20 +61,43 @@
                 <li><a href="#">Special prices</a></li>
             </ul>
         </nav>
+
+        <!--pc version nav-->
+
+        <nav class="main-nav pc-only">
+            <ul>
+                <li><a href="#" class="main-nav__current-page">Brands we repair</a></li>
+                <li><a href="#">Devices we repair</a></li>
+                <li><a href="#">Service prices</a></li>
+                <li><a href="#">Addresses of service centres</a></li>
+                <li><a href="#">Special prices</a></li>
+            </ul>
+        </nav>
+
+        <!--end pc version nav-->
         
         <div class="content">
             
+            <!--add for pc version-->
+
+            <div class="content__review pc-only">
+                <p class="text--review">Review</p>
+            </div>
+
+            <!--end of pc version add-->
+
+
             <div class="content__left">
 
                 <p class="content__text">
                     We are an authorised service centre for Dell equipment repairs. Only with us can you repair your Dell laptop with the official manufacturer's warranty.
                 </p>
 
-                <p class="context__text tablet-only"> <!--adjustment for tablet version-->
+                <p class="content__text tablet-only"> <!--adjustment for tablet version-->
                     We have been successfully operating since 1992 and have earned a reputation as a reliable partner.
                 </p>
 
-                <p class="context__text pc-only">
+                <p class="content__text pc-only">
                     We are an authorised service centre for Dell equipment repairs. Only with us can you repair your Dell laptop with the official manufacturer's warranty. We have been successfully operating since 1992 and have earned a reputation as a reliable partner, as evidenced by our large number of loyal customers. We take pride in the fact that clients come to us through recommendations and, in turn, recommend us to their family and friends.
                 </p>
 
