@@ -30,7 +30,8 @@ img {
 
 /*hidden elements*/
 
-.tablet-only {
+.tablet-only,
+.pc-only {
     display: none;
 }
 
@@ -232,4 +233,34 @@ img {
     
 
     
+}
+
+
+
+/* media Q for PC version */
+
+@media (min-width: 1000px) {
+    .container,
+    .content {
+        max-width: 1120px;
+    }
+
+
+    .tablet-only {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .pc-only {
+        display: block;
+    }
+
+
+    /*adjustments for new header*/
+
+
+
 }
