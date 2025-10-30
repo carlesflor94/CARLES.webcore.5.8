@@ -28,10 +28,6 @@ img {
 }
 
 
-/*header*/
-
-
-
 
 
 
@@ -48,12 +44,14 @@ img {
 .flex {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    
     
 }
 
 .header {
     background-color: white;
+    margin-top: 24px;
+    margin-bottom: 24px;
     
 }
 
@@ -61,7 +59,23 @@ img {
     margin-top: 1em;
 }
 
+/*header*/
 
+.header__icon {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.icon--logo {
+    border-right: solid 2px #EAEAEA;
+    padding-right: 12px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.icon--repair {
+    margin-left: 20px;
+}
 
 
 
