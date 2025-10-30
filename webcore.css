@@ -90,6 +90,7 @@ img {
 
 .header__right {
     align-items: center;
+    padding-right: 16px;
 }
 
 .header__right img {
@@ -145,7 +146,7 @@ img {
 }
 
 
-/*context*/
+/*content*/
 
 .img--arrows {
     margin-right: 12px;
@@ -190,6 +191,14 @@ img {
         border-right: none;
         border-left: solid 2px #EAEAEA;
         padding-left: 12px;
+    }
+
+        /*navigation adjustments*/
+
+    .main-nav ul {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 16px;
     }
 
     
