@@ -12,9 +12,10 @@ img {
 /*text styles*/
 
 .title__text {
-    margin-left: 0.5em;
     font-weight: 700;
     font-size: 28px;
+    border-left: solid 4px #41F6D7;
+    padding-left: 12px;
 }
 
 .content__read-more {
@@ -67,6 +68,7 @@ img {
 
 
 /*menu*/
+
 
 
 .main-nav {
