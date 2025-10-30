@@ -58,6 +58,7 @@ img {
 .title {
     margin-top: 24px;
     margin-bottom: 24px;
+    padding-top: 1px;
 }
 
 .img__content {
