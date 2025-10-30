@@ -23,8 +23,10 @@ img {
     text-decoration: none;
     color: #1b1c21;
     font-weight: 500;
-    
-    
+}
+
+.title__button {
+    font-weight: 500;
 }
 
 
