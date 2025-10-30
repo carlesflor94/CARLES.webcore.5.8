@@ -88,6 +88,15 @@ img {
     margin-left: 0;
 }
 
+.header__right {
+    align-items: center;
+}
+
+.header__right img {
+        flex: 0 0 auto;
+        max-height: 40px;
+    }
+
 
 
 
@@ -155,11 +164,35 @@ img {
         display: block;
     }
 
+    /*header adjustments*/
+
+        /*CSP logo change*/
+
     .icon--logo {
         border-right: none;
         border-left: solid 2px #EAEAEA;
-       padding-left: 12px;
+        padding-left: 12px;
     }
+
+        /*header icons aligment*/
+
+    .header__right img {
+        margin: 0;
+    }
+
+    .header__right {
+        margin-left: auto;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .icon--repair {
+        border-right: none;
+        border-left: solid 2px #EAEAEA;
+        padding-left: 12px;
+    }
+
+    
 
     
 }
