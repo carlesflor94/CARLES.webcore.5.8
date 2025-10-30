@@ -28,6 +28,11 @@ img {
 }
 
 
+/*hidden elements*/
+
+.tablet-only {
+    display: none;
+}
 
 
 
@@ -69,7 +74,9 @@ img {
 
 /*header*/
 
-.header__icon {
+
+.icon--menu,
+.icon--repair {
     margin-left: 16px;
     margin-right: 16px;
 }
@@ -77,13 +84,11 @@ img {
 .icon--logo {
     border-right: solid 2px #EAEAEA;
     padding-right: 12px;
-    margin-right: 0;
+    margin-right: 16px;
     margin-left: 0;
 }
 
-.icon--repair {
-    margin-left: 20px;
-}
+
 
 
 
@@ -135,4 +140,26 @@ img {
 
 .img--arrows {
     margin-right: 12px;
+}
+
+
+
+/*media Q for tablet version*/
+
+@media (min-width: 750px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .tablet-only {
+        display: block;
+    }
+
+    .icon--logo {
+        border-right: none;
+        border-left: solid 2px #EAEAEA;
+       padding-left: 12px;
+    }
+
+    
 }
