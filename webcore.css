@@ -282,9 +282,11 @@ img {
         margin: 0 auto;
     }
 
-    
+    .content {
+        width: 95%;
+        max-width: 1120px;
+    }
 
-    
 
 
     .tablet-only {
@@ -356,40 +358,7 @@ img {
 
     /*content adjustments*/
 
-    .content {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin: 0;
-        padding: 0 16px 49px 16px;
-        gap: 16px;
-        
-    }
 
-    .content__review {
-        padding-left: 16px;
-    }
-
-
-    .content__row {
-        display: flex;
-        flex-direction: row;
-        gap: 24px;
-        width: 100%;
-    }
-
-
-    .content__left,
-    .content__img {
-        flex: 1 1 0;
-        min-width: 0;
-    }
-
-    .imgcps {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
 
     
 
