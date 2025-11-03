@@ -150,7 +150,7 @@ img {
     list-style: none;
     display: inline-flex;
     flex-wrap: nowrap;
-    gap: 1em;
+    gap: 70px;
     padding: 0;
     margin: 0;
     margin-left: 1em;
@@ -368,7 +368,16 @@ img {
         vertical-align: middle;
     }
 
+    /*menu adjustments*/
 
+    .main-nav li {
+        padding-right: 32px;
+    }
+
+    .main-nav ul {
+        flex-wrap: wrap;
+        row-gap: 24px;
+    }
 
 
     /*content adjustments*/
