@@ -1,5 +1,28 @@
+@font-face {
+    font-family: 'TT Lakes Neue Trial';
+    src: url(font/tt_lakes_neue/TT-Lakes-Neue-Trial-Regular.ttf);
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: 'TT Lakes Neue Trial';
+    src: url(font/tt_lakes_neue/TT-Lakes-Neue-Trial-Medium.ttf);
+    font-weight: 500;
+}
+
+
+@font-face {
+    font-family: 'TT Lakes Neue Trial';
+    src: url(font/tt_lakes_neue/TT-Lakes-Neue-Trial-Bold.ttf);
+    font-weight: 700;
+}
+
+
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'TT Lakes Neue Trial', sans-serif;
+    font-weight: 400;
     
 }
 
