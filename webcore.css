@@ -43,8 +43,8 @@ img {
 
 .container,
 .content {
-    width: 90%;
-    max-width: 320px;
+    width: 100%;
+    min-width: 320px;
     margin: 0 auto;
     background-color: #f8f8f8;
 }
@@ -57,8 +57,8 @@ img {
 }
 
 .header {
-    width: 90%;
-    max-width: 320px;
+    width: 100%;
+    min-width: 320px;
     justify-content: space-between;
     margin: 0 auto;
     background-color: white;
@@ -166,10 +166,11 @@ img {
 
 /* === media Q for tablet version === */
 
-@media (min-width: 750px) {
+@media (min-width: 767px) and (max-width: 1118px) {
     .container,
     .content {
-        max-width: 768px;
+        width: 100%;
+        min-width: 768px;
         margin: 0 auto;
     }
 
@@ -182,8 +183,8 @@ img {
     .header {
         justify-content: space-between;
         align-items: center;
-        width: 90%;
-        max-width: 786px;
+        width: 100%;
+        min-width: 768px;
         margin: 0 auto;
         padding: 24px 0;
     }
@@ -213,11 +214,11 @@ img {
     }
 
     .header__left {
-        margin-left: 24px;
+        padding-left: 24px;
     }
 
     .header__right {
-        margin-right: 24px;
+        padding-right: 24px;
     }
 
     .icon--repair {
@@ -272,18 +273,12 @@ img {
 
 /* === media Q for PC version === */
 
-@media (min-width: 1000px) {
+@media (min-width: 1119px) {
     .container {
-        max-width: 1120px;
+        min-width: 1120px;
         width: 100%;
         margin: 0 auto;
     }
-
-    .content {
-        width: 95%;
-        max-width: 1120px;
-    }
-
 
 
     .tablet-only {
@@ -324,7 +319,7 @@ img {
     .title__actions {
         display: flex;
         flex-direction: row;
-        margin-right: 25px;
+        padding-right: 25px;
         gap: 8px;
     }
 
@@ -354,6 +349,38 @@ img {
 
 
     /*content adjustments*/
+
+    .content {
+        width: 100%;
+        min-width: 1120px;
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: space-between;
+        gap: 36px;
+        padding-top: 16px;
+    }
+
+
+    .content__left,
+    .content__img {
+        flex: 1;
+    }
+
+    .content__left {
+        padding-left: 34px;
+    }
+
+    .content__img {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+        padding-right: 25px;
+    }
+
+
+
+
 
 
 
